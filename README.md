@@ -116,4 +116,11 @@ With dynamic input channel pruning
 Please check the LICENSE file. SMCP may be used non-commercially. For business inquiries, please contact researchinquiries@nvidia.com.
 
 ## Citation
-TBD
+```BibTeX
+@article{chang2021image,
+  title={Soft Masking for Cost-Constrained Channel Pruning},
+  author={Humble, Ryan and Shen, Maying  and Albericio-Latorre, Jorge and Darve, Eric and Alvarez, Jose M},
+  journal={ECCV},
+  year={2022}
+}
+```
