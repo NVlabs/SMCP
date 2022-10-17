@@ -117,7 +117,7 @@ Please check the LICENSE file. SMCP may be used non-commercially. For business i
 
 ## Citation
 ```BibTeX
-@article{chang2021image,
+@article{Humble2022pruning,
   title={Soft Masking for Cost-Constrained Channel Pruning},
   author={Humble, Ryan and Shen, Maying  and Albericio-Latorre, Jorge and Darve, Eric and Alvarez, Jose M},
   journal={ECCV},
