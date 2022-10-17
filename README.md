@@ -1,7 +1,7 @@
 # Soft Masking for Cost-Constrained Channel Pruning
 
-[Soft Masking for Cost-Constrained Channel Pruning](https://arxiv.org/abs/2104.05702](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710640.pdf).
-Ryan Humble, Maying Shen, Jorge Albericio Latorre, Eric Darve, and Jose M. Alvarez.
+[Soft Masking for Cost-Constrained Channel Pruning](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710640.pdf).<br>
+Ryan Humble, Maying Shen, Jorge Albericio Latorre, Eric Darve, and Jose M. Alvarez.<br>
 ECCV 2022.
 
 Official Pytorch code repository for the "Soft Masking for Cost-Constrained Channel Pruning" paper presented at ECCV 2022 (contact `josea@nvidia.com` for further inquiries).
