@@ -1,6 +1,11 @@
 # Soft Masking for Cost-Constrained Channel Pruning
 
-Official Pytorch code repository for the "Soft Masking for Cost-Constrained Channel Pruning" paper (contact `josea@nvidia.com` for further inquiries).
+[Soft Masking for Cost-Constrained Channel Pruning](https://arxiv.org/abs/2104.05702](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710640.pdf).
+Ryan Humble, Maying Shen, Jorge Albericio Latorre, Eric Darve, and Jose M. Alvarez.
+ECCV 2022.
+
+Official Pytorch code repository for the "Soft Masking for Cost-Constrained Channel Pruning" paper presented at ECCV 2022 (contact `josea@nvidia.com` for further inquiries).
+
 
 ## Abstract
 Structured channel pruning has been shown to significantly accelerate inference time for convolution neural networks (CNNs) on modern hardware, with a relatively minor loss of network accuracy. Recent works permanently zero these channels during training, which we observe to significantly hamper final accuracy, particularly as the fraction of the network being pruned increases. We propose Soft Masking for cost-constrained Channel Pruning (SMCP) to allow pruned channels to adaptively return to the network while simultaneously pruning towards a target cost constraint. By adding a soft mask re-parameterization of the weights and channel pruning from the perspective of removing input channels, we allow gradient updates to previously pruned channels and the opportunity for the channels to later return to the network. We then formulate input channel pruning as a global resource allocation problem. Our method outperforms prior works on both the ImageNet classification and PASCAL VOC detection datasets.
