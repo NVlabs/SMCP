@@ -9,6 +9,9 @@
   Figure 1: Top-1 accuracy tradeoff curve for pruning ResNet50 on the ImageNet classification dataset using a latency cost constraint. Baseline is from PyTorch model hub. Accuracy against FPS speed (left) and FLOPs (right) show the benefit of our method, particularly at high pruning ratios. For FPS, top-right is better. For FLOPs, top-left is better. FPS measured on an NVIDIA TITAN V GPU. See paper for more details
 </p>
 
+
+### [Project page](https://github.com/NVlabs/SMCP) | [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710640.pdf) 
+
 [Soft Masking for Cost-Constrained Channel Pruning](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710640.pdf).<br>
 Ryan Humble, Maying Shen, Jorge Albericio Latorre, Eric Darve, and Jose M. Alvarez.<br>
 ECCV 2022.
